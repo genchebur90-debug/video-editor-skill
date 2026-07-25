@@ -1,0 +1,15 @@
+{
+  "output": {"path": "o_timeline.mp4", "width": 1280, "height": 720, "fps": 30, "preset": "web_mp4"},
+  "clips": [
+    {"src": "clipA.mp4", "in": 0, "out": 2.5},
+    {"src": "clipB.mp4", "in": 0.5, "out": 3.5, "transition": {"type": "fade", "duration": 0.75}}
+  ],
+  "overlays": [
+    {"type": "image", "src": "logo.png", "position": "top-right", "scale": 0.14, "opacity": 0.9},
+    {"type": "text", "text": "Как сделать монтаж", "position": "bottom", "start": 0, "end": 2.0, "fontsize": 54}
+  ],
+  "audio": [
+    {"src": "music.mp3", "gain_db": -18, "duck": true, "loop": true, "fade_out": 1.0}
+  ],
+  "subtitles": {"src": "subs.srt", "force_style": "Fontsize=20,Outline=2"}
+}

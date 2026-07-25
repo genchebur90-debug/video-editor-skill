@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node / Remotion
+node_modules/
+.remotion/
+out/
+npm-debug.log*
+package-lock.json
+
+# Media & render artifacts (keep the repo light)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.gif
+*.mp3
+*.m4a
+*.wav
+*.ass
+*.srt
+!video-editor/examples/*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

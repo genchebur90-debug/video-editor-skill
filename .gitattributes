@@ -1,0 +1,18 @@
+# Normalize line endings so diffs stay readable across platforms.
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.mjs   text eol=lf
+LICENSE text eol=lf
+
+# Shell scripts must keep LF endings or they will not execute.
+*.sh    text eol=lf
+
+# Media files are binary; never try to diff or convert them.
+*.mp4 binary
+*.mov binary
+*.mp3 binary
+*.wav binary
+*.cube binary

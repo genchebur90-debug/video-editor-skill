@@ -1,0 +1,22 @@
+{
+  "name": "video-editor-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion motion-graphics compositions for the video-editor skill (captions, CTA end-card, kinetic intro). Renders in an environment where headless Chromium is available; on-platform the skill falls back to libass/HyperFrames.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.230",
+    "@remotion/cli": "4.0.230",
+    "@remotion/renderer": "4.0.230",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.230"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "typescript": "5.5.4"
+  }
+}
