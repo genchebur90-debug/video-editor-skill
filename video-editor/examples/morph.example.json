@@ -1,1 +1,47 @@
-PLACEHOLDER_EXAMPLE
+{
+  "_comment": "morph.py script: one entry per persona. `text` is spoken (drives slot length), `subtitle` is burned on screen, `clip` is the generated persona shot, `seam` hides the cut. Omit `clip` to pass clips positionally via --clips. Add explicit `start`/`end` to override boundary detection entirely.",
+  "phrases": [
+    {
+      "persona": "live",
+      "seam": "hard",
+      "clip": "personas/live_open.mp4",
+      "text": "Это видео я не снимал. Ни одного кадра.",
+      "subtitle": "I didn't film this. Not a single frame."
+    },
+    {
+      "persona": "cartoon3d",
+      "seam": "whip",
+      "clip": "personas/cartoon3d.mp4",
+      "text": "Меня зовут Кенгуру, и всё, что ты сейчас увидишь —",
+      "subtitle": "My name is Kenguru, and everything you'll see —"
+    },
+    {
+      "persona": "claymation",
+      "seam": "pixel",
+      "clip": "personas/clay.mp4",
+      "text": "сделано нейросетями за один вечер.",
+      "subtitle": "was made by AI in one evening."
+    },
+    {
+      "persona": "anime",
+      "seam": "flash",
+      "clip": "personas/anime.mp4",
+      "text": "Я делаю мультики для твоих детей.",
+      "subtitle": "I make cartoons for your kids."
+    },
+    {
+      "persona": "oilpaint",
+      "seam": "whip",
+      "clip": "personas/oil.mp4",
+      "text": "И рекламу для твоего товара.",
+      "subtitle": "And ads for your product."
+    },
+    {
+      "persona": "live_close",
+      "seam": "morph",
+      "clip": "personas/live_close.mp4",
+      "text": "Напиши мне. Покажу на твоём товаре.",
+      "subtitle": "DM me. I'll show you on your product."
+    }
+  ]
+}
